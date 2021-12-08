@@ -27,13 +27,15 @@ public class Main {
         shoppingBag.putIn(potatoes);
 
         System.out.println(shoppingBag);
-        //These will cause exceptions
+        
 
         System.out.println(handHoldBag.putIn(milk));
         normalBag.removeTheHeaviest();
         System.out.println(normalBag);
         normalBag.removeAll();
         System.out.println(normalBag);
+
+        //These will cause exceptions
 //        Item fakeItem=new Item("", 2.0);
 //        Item fakeItem2=new Item("fakeITEM", 4545.0);
       //  Bag fakeBag= new Bag(455,33.0);
